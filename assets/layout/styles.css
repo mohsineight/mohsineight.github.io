@@ -1,0 +1,92 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url("../images/background-grey.jpg");
+  background-size: 200vh;
+  background-repeat: no-repeat;
+  background-color: #292b2b;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: opaque;
+    overflow: hidden;
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  transition-duration: 0.5s;
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  color: black;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+
+.topnav-right a:hover {
+  color: white;
+  background-color: black;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.button {
+    top: 50%;
+    text-align: center;
+    background-color: opaque;
+    border: 2px solid black;
+    font-size: 20px;
+    padding: 10px;
+    width: 150px;
+    transition-duration: 0.5s;
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
+}
+
+.container{
+    text-align:center;
+
+}
+
+.gen_img{
+    line-height:0;
+    display:inline-block;
+    margin-top: 10px;
+    padding:0;
+    opacity:0%;
+}
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: left;
+}

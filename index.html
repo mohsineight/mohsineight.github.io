@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script src="tensorflow.js"></script>
+    <meta name="description" content="AI based color palette generator">
+    <meta name="author" content="Mohsin Ali">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="assets/layout/styles.css">
+    <link rel="icon" type="image/png" href="assets/images/favicon.ico"/>
+    <script src="assets/layout/script.js"></script>
+    <title>Shades - A simple AI based color palette generator</title>
+  </head>
+
+  <body>
+    <div class="topnav">
+      <a href="index.html"><img onmouseover="hover(this)" onmouseout="unhover(this)"
+        src="assets/images/shades-logo-hover.png" ></a>
+      <div class="topnav-right">
+        <a href="https://github.com/mohsineight/color-palette">Github</a>
+        <a href="documentation.html">Blog</a>
+      </div>
+    </div>
+    <div class="wrapper">
+      <h1>Color Pallete Generator</h1>
+      <p>Generate color paletts using a simple AI.</p>
+      <button class="button button" onmouseover="buttonhover()" onmouseout="buttonunhover()" onclick="buttonclick()">Generate</button>
+    </div>
+    <div class="container">
+        <div class="gen_img" id="color1" style="height:150px; width:150px; background:black"></div>
+        <div class="gen_img" id="color2" style="height:150px; width:150px; background:black"></div>
+        <div class="gen_img" id="color3" style="height:150px; width:150px; background:black"></div>
+        <div class="gen_img" id="color4" style="height:150px; width:150px; background:black"></div>
+        <div class="gen_img" id="color5" style="height:150px; width:150px; background:black"></div>
+    </div>
+    <div class="footer">Created by Mohsin Ali</div>
+  </body>
+
+</html>
